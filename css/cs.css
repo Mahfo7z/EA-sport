@@ -1,0 +1,126 @@
+html {
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 16px;
+    background-color: white;
+}
+
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), (rgba(0, 0, 0, 0.7))) url(https://images.unsplash.com/photo-1551854321-1432edd90a5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1531&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.main-nav {
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.main-nav li a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.hero {
+    position: absolute;
+    top: 40%;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    border: solid 1px orange;
+    margin-right: 15px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: orange;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: orange;
+}
+
+section {
+    padding: 40px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+hr {
+    width: 100px;
+    border: solid 3px orange;
+    background-color: orange;
+}
+
+.features-desc {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.features {
+    text-align: center;
+}
+
+.features i {
+    color: orange;
+    font-size: 50px;
+}
+
+.meal {
+    padding: 0px;
+    margin-bottom: 5px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.meal img {
+    width: 100%;
+    opacity: .6;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.meal img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
